@@ -23,6 +23,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/OrangeHRM_Site/Page_Ora
 
 WebUI.click(findTestObject('Object Repository/OrangeHRM_Site/Page_OrangeHRM/input_Password_Submit'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('OrangeHRM_Site/Page_OrangeHRM/Timesheet Image'))
 
 WebUI.click(findTestObject('Object Repository/OrangeHRM_Site/Page_OrangeHRM/input__btnView'))

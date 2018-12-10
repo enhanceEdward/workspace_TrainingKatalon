@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;btnView&quot;)[count(. | //input[@type = 'button' and @id = 'btnView']) = count(//input[@type = 'button' and @id = 'btnView'])]</value>
+         <value>id(&quot;btnView&quot;)[count(. | //input[@type = 'button' and @id = 'btnView' and @value = 'View']) = count(//input[@type = 'button' and @id = 'btnView' and @value = 'View'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,7 +45,7 @@
       <value>btnView</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
