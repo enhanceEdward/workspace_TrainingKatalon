@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="15" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="15" timestamp="2018-12-11 10:56:14" hostname="EdwardAbad - DESKTOP-JKT2NVQ.recruitit.local" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\dev\\workspace_TrainingKatalon\\Reports\\TestSuite1\\20181211_105608"/>
+         <property name="logFiles" value="C:\\dev\\workspace_TrainingKatalon\\Reports\\TestSuite1\\20181211_105608\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="EdwardAbad - DESKTOP-JKT2NVQ.recruitit.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.82.2"/>
+         <property name="sessionId" value="b30aa4c18cd66c1ba34cb00f14e08d25"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Record and Play" classname="Test Cases/Record and Play" status="PASSED">
+         <system-out><![CDATA[2018-12-11 10:56:15 - [TEST_CASE][PASSED] - Test Cases/Record and Play: Test Cases/Record and Play
+
+2018-12-11 10:56:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-11 10:56:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-11 10:56:16 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-11 10:56:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-11 10:56:20 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-12-11 10:56:23 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-12-11 10:56:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OrangeHRM_Site/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "Admin"): Text 'Admin' is set on object 'Object Repository/OrangeHRM_Site/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2018-12-11 10:56:23 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM_Site/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2018-12-11 10:56:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/OrangeHRM_Site/Page_OrangeHRM/input_Username_txtPassword"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/OrangeHRM_Site/Page_OrangeHRM/input_Username_txtPassword'
+
+2018-12-11 10:56:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OrangeHRM_Site/Page_OrangeHRM/input_Username_txtPassword'
+
+2018-12-11 10:56:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_Site/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/OrangeHRM_Site/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2018-12-11 10:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_Site/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2018-12-11 10:56:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-11 10:56:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-11 10:56:29 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_Site/Page_OrangeHRM/Timesheet Image")): Object: 'Object Repository/OrangeHRM_Site/Page_OrangeHRM/Timesheet Image' is clicked on
+
+2018-12-11 10:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_Site/Page_OrangeHRM/Timesheet Image' is clicked on
+
+2018-12-11 10:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_Site/Page_OrangeHRM/input__btnView")): Object: 'Object Repository/OrangeHRM_Site/Page_OrangeHRM/input__btnView' is clicked on
+
+2018-12-11 10:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_Site/Page_OrangeHRM/input__btnView' is clicked on
+
+2018-12-11 10:56:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-11 10:56:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-11 10:56:14 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/Record and Play]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
